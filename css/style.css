@@ -19,7 +19,7 @@ header {
     position: relative;
     top:-235px;
     width: 100vw;
-    background-color: #25c125;
+    background-color: #00985E;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -72,7 +72,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #25c125;
+    background-color: #00985E;
     color: white;
     border: none;
     border-radius: 5px;
@@ -81,7 +81,7 @@ button {
 }
 
 button:hover {
-    background-color: #25c125;
+    background-color: #00985E;
 }
 
 p {

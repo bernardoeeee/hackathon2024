@@ -8,7 +8,7 @@ body {
     grid-template-columns: repeat(auto-fit, auto);
     grid-template-rows: 130px auto;
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #e2e2e2;
@@ -17,7 +17,7 @@ body {
 
 header {
     grid-row: 1/2;
-    background-color: rgb(37, 193, 37);
+    background-color: #00985E;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -34,6 +34,10 @@ header #nome {
     width: 380px;
     height: auto;
     font-size: 40px;
+}
+
+label {
+    font-size: 80px;
 }
 
 main {
@@ -53,15 +57,28 @@ main form {
     justify-content: space-around;
 }
 
-main
+main textarea {
+    width: 80%;
+    height: 200px;
+    font-size: 40px;
+}
 
 main input {
     width: 90%;
-    height: 60px;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 20px;
 }
 
 main button {
     
     width: 90%;
-    height: 60px;
+    font-size: 50px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
