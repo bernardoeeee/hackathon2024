@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-template-rows: 130px auto;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-row: 1/2;
+    background-color: rgb(37, 193, 37);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header #logo {
+    width: 140px;
+    height: auto;
+    font-size: 30px;
+}
+
+header #nome {
+    width: 380px;
+    height: auto;
+    font-size: 40px;
+}
+
+main {
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    width: 80%;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 20px;
+    background-color: rgb(100, 100, 100);
+}
+
+p {
+    font-size: 30px;
+}
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e2e2;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-template-rows: 130px auto;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-row: 1/2;
+    background-color: rgb(37, 193, 37);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header #logo {
+    width: 140px;
+    height: auto;
+    font-size: 30px;
+}
+
+header #nome {
+    width: 380px;
+    height: auto;
+    font-size: 40px;
+}
+
+main {
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../img/backG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main h1{
+    margin-top: 140px;
+    margin-bottom: 400px;
+    font-size: 60px;
+}
+
+main div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-position: center;
+    background-size: 500px;
+}
+
+#ala1 {
+    background-color: rgb(0, 205, 0);
+}
+
+#ala2 {
+    background-color: rgb(255, 213, 0);
+}
+
+main div div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 50%;
+    border: 2px solid rgb(7, 7, 7);
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    margin-top: 200px;
+    align-self: center;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: start;
+}
