@@ -1,8 +1,20 @@
 # Projeto Hackathon Tech+Saúde - Segunda Edição
 
+## INTEGRANTES:
+
+| NOME | GITHUB|
+| ---------------- | ----------------|
+| Bernardo Varisco Fleck | https://github.com/bernardoeeee|
+| Francisco Pes de Mello | https://github.com/franciscoMello777 |
+| Gabriel Garcez de Oliveira | https://github.com/gabiss1|
+| Marcelo de Carli Rocha | https://github.com/marcelodecarli|
+| Victor Flores Alves Mota | https://github.com/VictorFloresAlvesMota |
+| Vitória Faller | https://github.com/|
+
+
 
 <figure>
-  <img src="./Equipe.jpg" />
+  <img src="./DOCUMENTACAO//Equipe.jpg" />
   <figcaption>EQUIPE (obs: alguns colegas tinham ido embora já)</figcaption>
 </figure>
 
@@ -16,7 +28,7 @@
 
   - Imagem QRCode Figma
 
-  <img src="../DOCUMENTACAO/IMAGENSUTEIS/QRCODEFIGMA.jpg">
+  <img src="./DOCUMENTACAO/IMAGENSUTEIS/QRCODEFIGMA.jpg">
 
 ## Canva
  - https://www.canva.com/design/DAGXXUcMeKU/y6FQXwqHeGKFQKrfm3aweQ/edit
@@ -27,15 +39,15 @@
 
 
 <figure>
-  <img src="./IMAGENSUTEIS/logo.jpg" />
+  <img src="./DOCUMENTACAO/IMAGENSUTEIS/logo.jpg" />
   <figcaption>LOGO INICIAL</figcaption>
 </figure>
 <figure>
-  <img src="./IMAGENSUTEIS/LogoSemFundo.png"/>
+  <img src="./DOCUMENTACAO/IMAGENSUTEIS/LogoSemFundo.png"/>
   <figcaption>LOGO SEM FUNDO</figcaption>
 </figure>
 <figure>
-  <img src="./IMAGENSUTEIS/tituloNomeSemFundo.png">
+  <img src="./DOCUMENTACAO/IMAGENSUTEIS/tituloNomeSemFundo.png">
     <figcaption>TITULO / NOME</figcaption>
 </figure>
 
