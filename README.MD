@@ -8,6 +8,7 @@
 | Francisco Pes de Mello | https://github.com/franciscoMello777 |
 | Gabriel Garcez de Oliveira | https://github.com/gabiss1|
 | Marcelo de Carli Rocha | https://github.com/marcelodecarli|
+| Miguel Donato de Miranda | https://github.com/miguelmdtz|
 | Victor Flores Alves Mota | https://github.com/VictorFloresAlvesMota |
 | Vitória Faller | https://github.com/|
 
