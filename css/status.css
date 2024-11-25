@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -46,7 +46,7 @@ main {
     background-repeat: no-repeat;
 }
 
-main h1{
+main h1 {
     margin-top: 140px;
     margin-bottom: 400px;
     font-size: 60px;
@@ -88,13 +88,27 @@ button {
 
 a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-#container{
+ul {
+    padding: 15px;
+    border: solid 2px black;
+    border-radius: 15px;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    align-items: start;
+    justify-content: space-between;
+
+}
+
+main ul li {
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #d2d2d2;
+}
+
+main ul li p {
+    font-size: 2rem;
 }

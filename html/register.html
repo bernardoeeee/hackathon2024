@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
+
+    <header>
+        <img src="../img/logo.png" alt="Logo" id="logo">
+        <img src="../img/Nome.png" alt="Nome" id="nome">
+    </header>
     <div class="container">
-        <h2>Registrar-se</h2>
+        <h2>Registrar funcionário novo</h2>
         <form id="registerForm">
             <label for="cpf">CPF:</label>
             <input type="cpf" id="cpf" name="cpf" required>
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
+            <label for="password">Setor:</label>
+            <input type="text" id="textSetor" name="textSetot" required>
             <button type="submit">Registrar</button>
-            <p>Já tem uma conta? <a href="login.html">Fazer login</a></p>
+            <p>Já tem uma conta? <a href="../index.html">Fazer login</a></p>
         </form>
         <div id="message"></div>
     </div>
 
     <script src="js/register.js"></script>
 </body>
+
 </html>

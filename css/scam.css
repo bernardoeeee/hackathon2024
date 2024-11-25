@@ -41,6 +41,14 @@ main {
     justify-content: space-around;
 }
 
+main a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
 h1 {
     font-size: 70px;
 }
@@ -57,7 +65,8 @@ a {
     background-color: rgba(156, 156, 156, 0.26);
 }
 
-p {
-    font-size: 30px;
+input {
+    text-align: center;
+    font-size: 2rem;
 }
 
